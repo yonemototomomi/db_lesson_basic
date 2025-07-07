@@ -218,45 +218,6 @@ UPDATE people
 SET name = '高橋 陸'
 WHERE person_id = 47;
 
-
-
-
-INSERT INTO people (name, email, age, gender)
-VALUES
-('田中ゆうこ', 'tanaka@gizumo.jp', 25, 2),
-('福田だいすけ', 'fukuda@gizumo.jp', 42, 1),
-('豊島はなこ', 'toyoshima@gizumo.jp', 34, 2),
-('早坂てつお', 'hayasaka@gizumo.co.jp', 61, 1),
-('不思議沢みちこ', NULL, NULL, NULL);
-
-INSERT INTO people (name, email, age, gender) VALUES
-('佐藤 一郎', 'ichiro@example.com', 30, 1),
-('鈴木 次郎', 'jiro@example.com', 28, 1),
-('高橋 三郎', 'saburo@example.com', 35, 1),
-('田中 四郎', 'shiro@example.com', 40, 1),
-('伊藤 五郎', 'goro@example.com', 31, 1),
-('山本 花子', 'hanako@example.com', 27, 2),
-('中村 真一', 'shinichi@example.com', 33, 1),
-('小林 涼子', 'ryoko@example.com', 29, 2),
-('加藤 拓海', 'takumi@example.com', 26, 1),
-('渡辺 美咲', 'misaki@example.com', 32, 2),
-('村上 拓哉', 'takuya@example.com', 34, 1);
-
-
-INSERT INTO people (name, email, department_id, age, gender)
-VALUES 
-('山田 太郎', 'yamada@example.com', 1, 30, 1),
-('佐藤 花子', 'sato@example.com', 1, 28, 2),
-('鈴木 壱馬', 'suzuki@example.com', 1, 35, 1),
-('高橋 陸', 'takahashi@example.com', 2, 32, 1),
-('田中 美咲', 'tanaka@example.com', 2, 29, 2),
-('伊藤 拓海', 'ito@example.com', 2, 27, 1),
-('中村 涼子', 'nakamura@example.com', 2, 26, 2),
-('加藤 真一', 'kato@example.com', 3, 40, 1),
-('渡辺 さくら', 'watanabe@example.com', 4, 33, 2),
-('小林 大輝', 'kobayashi@example.com', 5, 31, 1);
-
-
 1 | 鈴木たかし
 2 | 田中ゆうこ 
 3 | 福田だいすけ 
